@@ -6,6 +6,9 @@ public class DemoService {
 
 	private DemoPojo demoPojo;
 
+	public DemoService() {
+	}
+
 	public void demoAction() {
 
 		System.out.println("text:" + text + ", demoPojo:" + demoPojo.toString());
