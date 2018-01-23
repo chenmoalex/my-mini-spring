@@ -11,8 +11,10 @@ public class DemoService {
 
 	public void demoAction() {
 
-		System.out.println("text:" + text + ", demoPojo:" + demoPojo.toString());
+		System.out.println("text:" + text + ", demoPojo:");
 
+		if (demoPojo == null) {
+			System.out.println("demoPojo: null");
+		}
 	}
-
 }
